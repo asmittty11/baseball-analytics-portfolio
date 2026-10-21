@@ -14,7 +14,7 @@ I work in MLB/MiLB data operations, supporting live-game statistical accuracy, t
 Run `documentation/demo_schema.sql` in SQLite before running each query file.
 
 ## Melbourne baseball reporting
-I have also developed performance reviews and opponent advance-scouting reports for Melbourne Baseball Club. Those documents are held for review before publication, to avoid disclosing team-specific game plans without approval.
+I have also developed performance reviews and opponent advance-scouting reports for Melbourne Baseball Club in the semi-professional Baseball Victoria Summer League (VSBL) Division 1. Those documents are held for review before publication, to avoid disclosing team-specific game plans without approval.
 
 ## Notes
 These are newly written portfolio demonstrations of SQL concepts practiced in training, not verbatim copies of assessments or proprietary MLB data.
