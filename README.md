@@ -9,14 +9,15 @@ I work in MLB/MiLB data operations, supporting live-game statistical accuracy, t
 - [Game operations reporting](sql-projects/02-game-operations-reporting/operations_reporting.sql) — aggregate reporting by league.
 - [Data quality validation](sql-projects/03-data-quality-validation/quality_checks.sql) — identifying missing values and duplicates.
 - [Relational database joins](sql-projects/04-relational-database-joins/joins.sql) — INNER JOIN versus LEFT JOIN.
+- [Baseball operations QC reporting case study (Week 5)](sql-projects/06-baseball-operations-qc-dashboard/README.md) — reproducible three-table SQL reporting of league, operator, and team-level outstanding findings; includes original verified training queries and synthetic data.
 
 ## Reproduce
-Run `documentation/demo_schema.sql` in SQLite before running each query file.
+For projects 01–04, run `documentation/demo_schema.sql` in SQLite before running the query files. The Week 5 QC case study has its own `schema.sql` and reproduction instructions.
 
 ## Melbourne baseball reporting
 I have also developed performance reviews and opponent advance-scouting reports for Melbourne Baseball Club in the semi-professional Baseball Victoria Summer League (VSBL) Division 1. Those documents are held for review before publication, to avoid disclosing team-specific game plans without approval.
 
 ## Notes
-These are newly written portfolio demonstrations of SQL concepts practiced in training, not verbatim copies of assessments or proprietary MLB data.
+Projects use synthetic baseball data. Introductory examples are newly written demonstrations of practiced concepts; the Week 5 QC case study preserves actual verified training submissions. No proprietary MLB data is included.
 
 [LinkedIn](https://www.linkedin.com/in/allan-smith-iii/)
