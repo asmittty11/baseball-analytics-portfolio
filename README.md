@@ -17,8 +17,14 @@ I work in MLB/MiLB data operations, supporting live-game statistical accuracy, t
 ## Reproduce
 For projects 01–04, run `documentation/demo_schema.sql` in SQLite before running the query files. The Week 5 QC case study has its own `schema.sql` and reproduction instructions.
 
-## Melbourne baseball reporting
-I have also developed performance reviews and opponent advance-scouting reports for Melbourne Baseball Club in the semi-professional Baseball Victoria Summer League (VSBL) Division 1. Those documents are held for review before publication, to avoid disclosing team-specific game plans without approval.
+## Melbourne Baseball Club — Live Season Analytics & Scouting
+I support Melbourne Baseball Club, a semi-professional team in Australia's Victorian Summer Baseball League (VSBL) Premier Division 1, by developing season performance summaries and opponent advance-scouting reports. With the club's approval, scouting and performance reports are published as they are completed.
+
+- **[Interactive Melbourne analytics and scouting dashboard](https://asmittty11.github.io/melbourne-baseball-dashboard/):** searchable and sortable player statistics, opponent comparisons, and published reports.
+- **[Dashboard source and report archive](https://github.com/asmittty11/melbourne-baseball-dashboard):** project documentation, data sources, reports, and implementation files.
+- **Ongoing 2026–27 season project:** currently covers Melbourne's first **eight games** of its scheduled **30-game season**. The reporting dataset and dashboard are expanded as additional games are played and verified statistics are uploaded; they are not a live, automatic data feed.
+
+The reports are intended to turn available statistics into practical performance and scouting insights. Opponent reporting windows differ, and missing or provisional source values are identified rather than assumed.
 
 ## Notes
 Projects use synthetic baseball data. Introductory examples are newly written demonstrations of practiced concepts; the Week 5 QC case study preserves actual verified training submissions. No proprietary MLB data is included.
